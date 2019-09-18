@@ -1,0 +1,113 @@
+/*
+ Theme Name:   Oceanwp Child Theme
+ Theme URI:    http://rasmusmueller.com/
+ Description:  Oceanwp Child Theme
+ Author:       Rasmus Müller
+ Author URI:   http://rasmusmueller.com/
+ Template:     oceanwp
+ Version:      0.9.9
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  oceanwpchild
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Chewy&display=swap');
+
+.text-wrap{
+   color:white; 
+   font-family: 'Chewy', cursive;
+   font-size:1.2em;
+}
+
+#menu-item-125 {
+    background-image: url("http://rasmusmueller.com/basicwordpress/wp-content/uploads/2019/09/nav2.png");
+    background-position:left;
+    background-repeat: no-repeat;
+    filter: opacity(100%);
+    transition: 1s;
+}
+
+#menu-item-125:hover{
+    filter: opacity(70%);
+}
+
+#menu-item-125 a span{
+    margin-left:10%;
+    margin-bottom:10%;
+}
+
+#menu-item-126 {
+    background-image: url("http://rasmusmueller.com/basicwordpress/wp-content/uploads/2019/09/nav2.png");
+    background-position:left;
+    background-repeat: no-repeat;
+    filter: opacity(100%);
+    transition: 1s;
+}
+
+#menu-item-126:hover{
+    filter: opacity(70%);
+}
+
+#menu-item-126 a span{
+    margin-left:10%;
+}
+
+#menu-item-127 {
+    background-image: url("http://rasmusmueller.com/basicwordpress/wp-content/uploads/2019/09/nav2.png");
+    background-position:left;
+    background-repeat: no-repeat;
+    filter: opacity(100%);
+    transition: 1s;
+}
+
+#menu-item-127:hover{
+    filter: opacity(70%);
+}
+
+#menu-item-127 a span{
+    margin-left:10%;
+}
+
+#site-header-inner #site-navigation-wrap .dropdown-menu >li >a {
+    background-color: transparent;
+    opacity: 1;
+}
+#site-header.vertical-header #site-navigation-wrap .dropdown-menu >li >a{
+    margin-bottom:5%;
+}
+#wrap #site-header.vertical-header #site-navigation-wrap .dropdown-menu li:last-child {
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
